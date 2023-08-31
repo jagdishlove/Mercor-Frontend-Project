@@ -1,0 +1,25 @@
+.App {
+  background-image: url("./Assets/Images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 20px;
+  height: 95vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+    background-attachment: fixed;
+
+@media screen and (max-width: 768px) {
+    background-image: url("./Assets/Images/mob_background.jpg");
+    background-size: cover;
+      background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+  }
+}

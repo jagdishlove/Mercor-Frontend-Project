@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Nunito+Sans:wght@200;300;400;500;600;700&display=swap");
+$font-inter: "Inter", sans-serif;
+$font-nunito-sans: "Nunito Sans", sans-serif;
+
+.header {
+    background-color: transparent;
+    padding: 10px 0;
+    font-family: "Inter", sans-serif;
+
+    .menu {
+        display: none;
+    }
+         .mob-menu {
+             display: flex;
+             justify-content: center;
+             gap: 1rem;
+             align-items: center;
+             flex-wrap: wrap;
+position: relative;
+    z-index: 100;
+    
+             a {
+                 text-decoration: none;
+                 color: #333;
+                 font-weight: 800;
+                 padding: 8px 12px;
+                 text-transform: uppercase;
+    
+                 &:hover {
+                     background-color: #f4f4f4;
+                     border-radius: 10px;
+                 }
+             }
+         }
+    .header-content {
+        display: flex;
+        justify-content: center;
+        gap: 4rem;
+        align-items: center;
+        flex-wrap: wrap;
+        a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 800;
+            padding: 8px 12px;
+            text-transform: uppercase;
+            &:hover {
+                background-color: #f4f4f4;
+                border-radius: 10px;
+            }
+        }
+    }
+
+       
+    // Media queries for responsiveness
+    @media screen and (max-width: 768px) {
+        .mob-menu {
+                display: flex;
+                justify-content: center;
+                gap: 1rem;
+                align-items: center;
+                flex-wrap: wrap;
+                flex-direction: column;
+          background:white;
+        position: absolute;
+        width: 80%;
+            z-index: 100;
+                a {
+                    text-decoration: none;
+                    color: #333;
+                    font-weight: 800;
+                    padding: 8px 12px;
+                    text-transform: uppercase;
+        
+                    &:hover {
+                        background-color: #f4f4f4;
+                        border-radius: 10px;
+                    }
+                }
+            }
+        .menu {
+            display: block;
+            float: right;
+        }
+        .header-content {
+            display:none;
+            flex-direction: column; // Stack links vertically on small screens
+            text-align: center; // Center-align text
+        gap: 1rem;
+        padding-top: 5rem;
+            a {
+                margin: 5px 0; // Add space between links
+            }
+        }
+    }
+}
