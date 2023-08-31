@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Mercor-Frontend-Project/static/css/main.fce17106.css",
-    "main.js": "/Mercor-Frontend-Project/static/js/main.f603c256.js",
+    "main.js": "/Mercor-Frontend-Project/static/js/main.c7be5e83.js",
     "static/js/787.c4e7f8f9.chunk.js": "/Mercor-Frontend-Project/static/js/787.c4e7f8f9.chunk.js",
     "static/media/background.jpg": "/Mercor-Frontend-Project/static/media/background.bcff98715663a9d7132d.jpg",
     "static/media/mob_background.jpg": "/Mercor-Frontend-Project/static/media/mob_background.cd247c500752520b2d43.jpg",
@@ -9,11 +9,11 @@
     "index.html": "/Mercor-Frontend-Project/index.html",
     "static/media/blob1.svg": "/Mercor-Frontend-Project/static/media/blob1.e8a01d585c2671a30cda7e5036a8d031.svg",
     "main.fce17106.css.map": "/Mercor-Frontend-Project/static/css/main.fce17106.css.map",
-    "main.f603c256.js.map": "/Mercor-Frontend-Project/static/js/main.f603c256.js.map",
+    "main.c7be5e83.js.map": "/Mercor-Frontend-Project/static/js/main.c7be5e83.js.map",
     "787.c4e7f8f9.chunk.js.map": "/Mercor-Frontend-Project/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fce17106.css",
-    "static/js/main.f603c256.js"
+    "static/js/main.c7be5e83.js"
   ]
 }
